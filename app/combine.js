@@ -16,6 +16,9 @@
  * @param {Array} fields array of single-property objects
  * @returns {Object} object with all fields included
  */
-module.exports = function (fields) {
+
+module.exports = 
+function (fields) {
+	var inputArray = [{ 'course-id': 1243 }, { title: 'Dev Mountain' }, { start_date: new Date(2014, 2, 14) }];
 
 }
